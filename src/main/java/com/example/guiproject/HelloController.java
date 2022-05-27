@@ -20,7 +20,7 @@ public class HelloController {
 
     @FXML
     void loginButtonClicked(MouseEvent mouseEvent) {
-        if(usernameTextField.getText().equals("wwf")&&passwordTextField.getText().equals("wwf"))
+        if(usernameTextField.getText().equals("wwf")&&passwordTextField.getText().equals("123"))
         {
             Alert alert=new Alert(Alert.AlertType.INFORMATION);
             alert.setTitle("登录成功");
